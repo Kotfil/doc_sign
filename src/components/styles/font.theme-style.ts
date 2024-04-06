@@ -1,4 +1,6 @@
-export const FontThemeStyle = {
+import {FontTheme} from "./font.theme-style.type";
+
+export const FontThemeStyle: FontTheme = {
   interMedium20: {
     fontFamily: 'Inter',
     fontWeight: 500,

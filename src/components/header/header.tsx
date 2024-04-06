@@ -1,6 +1,5 @@
-import React from 'react';
 import {AppBar, Grid, Toolbar, useMediaQuery, useTheme} from "@mui/material";
-import {ColorEnum} from 'components/enums/color.enum';
+import {ColorEnum} from '../enums/color.enum';
 import Navigation from "./navigation/navigation";
 
 import Language from "./language/language";

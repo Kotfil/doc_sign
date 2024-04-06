@@ -1,12 +1,13 @@
-import React from 'react';
 import AdfScannerRoundedIcon from "@mui/icons-material/AdfScannerRounded";
-import {Typography} from "../../typography/typography";
-import {Trans} from "react-i18next";
+import {useTranslation} from "react-i18next";
+import {NavLink} from "react-router-dom";
+import {TitleWrapper} from "./title.style";
 
 const Title = () => {
+    const {t} = useTranslation()
     return <>
             <AdfScannerRoundedIcon />
-            <Typography type={'montserratSemiBold18'}> <Trans i18nKey={'title'}> </Trans> </Typography>
+        <NavLink to={'/'}><TitleWrapper  type={'montserratSemiBold18'}>{t('title')} </TitleWrapper> </NavLink>
         </>
 };
 
