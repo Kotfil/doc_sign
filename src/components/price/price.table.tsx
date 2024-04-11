@@ -27,9 +27,9 @@ const columns: GridColDef<(typeof rows)[number]>[] = [
 ];
 
 const rows = [
-    { id: 1,category: 'Нотариус',service: 'Нотаріальне засвідчення перекладу (подпись)', term: '1 день', amount: 200,count: 1 },
     { id: 2,category: 'Нотариус',service: 'Нотаріальне засвідчення перекладу (с копией)',  term: '1 день',  amount: 250,count: 1 },
     { id: 3,category: 'Нотариус',service: 'Заява про не перебування у шлюбі (без присутності особи)',   term: '1 день',  amount: 750,count: 1 },
+    { id: 1,category: 'Нотариус',service: 'Нотаріальне засвідчення перекладу (подпись)', term: '1 день', amount: 200,count: 1 },
     { id: 4,category: 'Нотариус',service: 'Засвідчення паспортів РФ/Білорусь (з копією)',   term: '1-2 дня',  amount: 550,count: 1 },
     { id: 5,category: 'Нотариус',service: 'Засвідчення паспортів РФ/Білорусь (фотокопія-витяг)',   term: '1-3 дня',  amount: 450,count: 1 },
     { id: 6,category: 'Нотариус',service: 'Засвідчення свідоцтв РФ/Білорусь (з копією)',   term: '1 день',  amount: 450,count: 1 },
